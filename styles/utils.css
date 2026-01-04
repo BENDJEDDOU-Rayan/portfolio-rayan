@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 1.5rem;
+  align-items: center;
+  padding-left: clamp(1rem, -3rem + 10vw, 9rem);
+  padding-right: clamp(1rem, -3rem + 10vw, 9rem);
+  position: relative;
+}
+
+.no-mb {
+  margin-bottom: 0;
+}
+
+.no-mt {
+  margin-top: 0;
+}
+
+/* sm */
+@media (min-width: 640px) {
+}
+
+/* md */
+@media (min-width: 768px) {
+}
+
+/* lg */
+@media (min-width: 1024px) {
+}
+
+/* xl */
+@media (min-width: 1280px) {
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+}
+
+/* 3xl */
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1920px;
+  }
+}

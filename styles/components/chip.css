@@ -1,0 +1,42 @@
+.techstack-chip {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9d9d9;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  padding: 0.25rem 0.5rem;
+  font-size: var(--font-size-small);
+}
+
+.techstack-chip p {
+  font-family: "KoHo-Regular";
+}
+
+/* sm */
+@media (min-width: 640px) {
+}
+
+/* md */
+@media (min-width: 768px) {
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .techstack-chip p {
+    font-size: var(--font-size-medium);
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+}
+
+/* 3xl */
+@media (min-width: 1920px) {
+}

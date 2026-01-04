@@ -1,0 +1,58 @@
+.marquee {
+  grid-column: span 12;
+  user-select: none;
+  background-color: #ffffff;
+  padding: 2rem 0;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  overflow: hidden;
+  margin-top: clamp(2rem, 1.0291rem + 4.1424vw, 6rem);
+  margin-bottom: clamp(2rem, 1.0291rem + 4.1424vw, 6rem);
+  margin-left: calc(clamp(1rem, -3rem + 10vw, 9rem) * -1);
+  margin-right: calc(clamp(1rem, -3rem + 10vw, 9rem) * -1);
+  display: flex;
+  gap: 1.5rem;
+}
+
+.marquee__content {
+  font-size: 6rem;
+  text-wrap: nowrap;
+  font-family: "Futura-Hv-BT-Heavy";
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-100% - 1.5rem));
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .marquee__content {
+    font-size: 7rem;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .marquee__content {
+    font-size: 10rem;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+}
+
+/* 3xl */
+@media (min-width: 1920px) {
+}
