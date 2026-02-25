@@ -19,7 +19,7 @@
       src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/components/carousel-item/carousel-item.js"
     ></script>
     <title>Rayan BENDJEDDOU</title>
-	<link rel="icon" type="image/png" href="./favicon.png" />
+    <link rel="icon" type="image/png" href="./favicon.png" />
   </head>
   <body>
     <header class="header">
@@ -44,23 +44,26 @@
         <div class="presentation__text-group">
           <h2>Qui suis-je ?</h2>
           <p>
-            Je suis Rayan BENDJEDDOU, développeur web fraîchement diplômé d’un BUT Informatique (parcours Réalisation
-            d’Applications). J’aime concevoir des applications web et mobiles qui ont du sens, en combinant
-            fonctionnalité, esthétique et qualité du code. Curieux et motivé, je cherche à collaborer sur des projets
-            innovants où je peux apprendre, créer et avoir un réel impact !
+            Je suis Rayan BENDJEDDOU, développeur web diplômé d’un BUT Informatique (parcours Réalisation
+            d’Applications) obtenu en 2025. Je conçois des applications web et mobiles en mettant l’accent sur la
+            qualité du code, la clarté de l’architecture et l’expérience utilisateur.<br /><br />
+
+            Curieux et rigoureux, j’apprécie travailler sur des projets concrets qui apportent une réelle valeur
+            ajoutée. Je souhaite aujourd’hui rejoindre une équipe où je pourrai continuer à développer mes compétences
+            techniques, relever de nouveaux défis et contribuer activement à des projets ambitieux.
           </p>
         </div>
       </div>
     </section>
     <div class="marquee" id="projects">
       <p>MES PROJETS</p>
-      <p>MES PROJETS</p>
-      <p>MES PROJETS</p>
-      <p>MES PROJETS</p>
-      <p>MES PROJETS</p>
+      <p aria-hidden="true">MES PROJETS</p>
+      <p aria-hidden="true">MES PROJETS</p>
+      <p aria-hidden="true">MES PROJETS</p>
+      <p aria-hidden="true">MES PROJETS</p>
     </div>
     <section class="projects">
-      <article class="project project--reversed">
+      <article class="project">
         <aside>
           <sl-carousel autoplay loop>
             <sl-carousel-item>
@@ -96,7 +99,7 @@
           <div class="project__title">
             <h2>MEEAL (en cours)</h2>
             <a href="https://www.instagram.com/meeal.fr/?hl=fr" target="_blank">
-              <img src="./images/instagram.svg" alt="Suivre le projet sur Linkedin" />
+              <img src="./images/instagram.svg" alt="Suivre le projet sur Instagram" />
             </a>
             <a href="https://www.linkedin.com/company/meealfr/" target="_blank">
               <img src="./images/linkedin.svg" alt="Suivre le projet sur Linkedin" />
@@ -104,10 +107,10 @@
           </div>
           <div class="divider"></div>
           <p class="project__description">
-            Quelque chose mijote… 🍲<br />MEEAL transforme le repas en une expérience sociale locale. Vous pouvez créer
-            ou rejoindre des Meeals pour partager des plats faits maison, rencontrer de nouvelles personnes et tisser du
-            lien dans votre communauté. Convivialité, inclusion et zéro gaspillage, le tout accessible et simple à
-            utiliser, loin de toute logique de “dating”.
+            Quelque chose mijote… 🍲<br /><br />MEEAL transforme le repas en une expérience sociale locale. Vous pouvez
+            créer ou rejoindre des Meeals pour partager des plats faits maison, rencontrer de nouvelles personnes et
+            tisser du lien dans votre communauté. Convivialité, inclusion et zéro gaspillage, le tout accessible et
+            simple à utiliser, loin de toute logique de “dating”.
           </p>
           <div class="project__stack">
             <p>Stack :</p>
@@ -115,6 +118,56 @@
             <div class="project__stack-chip">Typescript</div>
             <div class="project__stack-chip">Java (Spring Boot)</div>
             <div class="project__stack-chip">SQL</div>
+          </div>
+        </div>
+      </article>
+      <div class="divider"></div>
+      <article class="project project--reversed">
+        <aside>
+          <sl-carousel autoplay loop>
+            <sl-carousel-item>
+              <img alt="Écran d'accueil du site MOODYNNE" src="./images/moodynne1.png" loading="lazy" />
+            </sl-carousel-item>
+            <sl-carousel-item>
+              <img
+                alt="Écran d'accueil du site MOODYNNE (version mobile)"
+                src="./images/moodynne2.png"
+                loading="lazy"
+              />
+            </sl-carousel-item>
+            <sl-carousel-item>
+              <img alt="Projet La Marmite Joyeuse " src="./images/moodynne3.png" loading="lazy" />
+            </sl-carousel-item>
+            <sl-carousel-item>
+              <img alt="Projet La Marmite Joyeuse (version mobile)" src="./images/moodynne4.png" loading="lazy" />
+            </sl-carousel-item>
+            <sl-carousel-item>
+              <img alt="Écran à propos de MOODYNNE" src="./images/moodynne5.png" loading="lazy" />
+            </sl-carousel-item>
+            <sl-carousel-item>
+              <img alt="Écran à propos de MOODYNNE (version mobile)" src="./images/moodynne6.png" loading="lazy" />
+            </sl-carousel-item>
+          </sl-carousel>
+        </aside>
+        <div class="project__infos">
+          <div class="project__title">
+            <h2>MOODYNNE</h2>
+            <a href="https://github.com/BENDJEDDOU-Rayan/portfolio-moodynne" target="_blank">
+              <img src="./images/github.svg" alt="Voir le code source du projet" />
+            </a>
+          </div>
+          <div class="divider"></div>
+          <p class="project__description">
+            Ce projet est né d’une collaboration avec un designer souhaitant donner vie à ses maquettes, mon rôle était
+            de traduire sa vision graphique en une expérience web fidèle, fluide et optimisée.<br /><br />Le défi
+            principal consistait à conserver l’esthétique et les micro-détails du design tout en assurant des
+            performances solides et une compatibilité multi-supports.
+          </p>
+          <div class="project__stack">
+            <p>Stack :</p>
+            <div class="project__stack-chip">HTML</div>
+            <div class="project__stack-chip">CSS</div>
+            <div class="project__stack-chip">JavaScript</div>
           </div>
         </div>
       </article>
@@ -143,11 +196,11 @@
           </div>
           <div class="divider"></div>
           <p class="project__description">
-            Outil de gestion d'équipements scientifiques, développé lors de mon stage de 5 mois au Laboratoire MADIREL
-            (Marseille - Saint-Jérôme). Cet outil permet aux permanents et non-permanents (étudiants de l'université
-            Aix-Marseille) de pouvoir réserver un créneau sur un équipement scientifque afin d'y réaliser une
-            expérience. Cet outil comprends d'autres fonctionnalité tels que la gestion d'équipements, utilisateurs basé
-            sur des rôles
+            Outil de gestion d’équipements scientifiques, développé lors de mon stage de 5 mois au Laboratoire MADIREL
+            (Marseille – Saint-Jérôme).<br /><br />
+            Cet outil permet aux permanents et aux non-permanents (étudiants de l’Université Aix-Marseille) de réserver
+            un créneau sur un équipement scientifique afin d’y réaliser une expérience. Il comprend d’autres
+            fonctionnalités telles que la gestion des équipements et des utilisateurs, basée sur des rôles.
           </p>
           <div class="project__stack">
             <p>Stack :</p>
@@ -181,11 +234,11 @@
           </div>
           <div class="divider"></div>
           <p class="project__description">
-            CRM complet réalisé durant ma 3ème année de BUT Informatique, dans le cadre d'un partenariat entre l'IUT
-            d'Aix-Marseille et Medinsoft pour la société V.A. Productions <br />
-            Ce CRM intègres des fonctionnalités avancées tels que la gestion de factures et bon de commandes, un
-            calendrier intégré (synchronisable avec Google Agenda) pour une gestion des rendez-vous, une gestion de
-            contact et enfin un système d'authentification et de rôles
+            CRM complet réalisé durant ma 3ᵉ année de BUT Informatique, dans le cadre d’un partenariat entre l’IUT
+            d’Aix-Marseille et Medinsoft pour la société V.A. Productions.<br /><br />
+            Ce CRM intègre des fonctionnalités avancées telles que la gestion des factures et des bons de commande, un
+            calendrier intégré (synchronisable avec Google Agenda) pour la gestion des rendez-vous, une gestion des
+            contacts ainsi qu’un système d’authentification et de rôles.
           </p>
           <div class="project__stack">
             <p>Stack :</p>
@@ -212,8 +265,12 @@
           </div>
           <div class="divider"></div>
           <p class="project__description">
-            Petit réseau social, dont le fonctionnement et le thème sont inspiré de X (anciennement Twitter). Réalisé
-            durant ma deuxième année de BUT Informatique en groupe de 5.
+            Mini réseau social inspiré de X (anciennement Twitter), réalisé en groupe de 5 durant ma deuxième année de
+            BUT Informatique. L’application permet la publication de posts (chirps), l’ajout de commentaires, la gestion
+            d’amis ainsi que l’interaction entre utilisateurs (fil d’actualité, profils, etc.).<br /><br />
+            Ce projet avait pour objectif de concevoir une application web complète, de la modélisation de la base de
+            données à l’implémentation des fonctionnalités principales, avec une mise en pratique de l'architecture MVC
+            en PHP.
           </p>
           <div class="project__stack">
             <p>Stack :</p>
@@ -227,10 +284,10 @@
     </section>
     <div class="marquee" id="skills">
       <p>SKILLS</p>
-      <p>SKILLS</p>
-      <p>SKILLS</p>
-      <p>SKILLS</p>
-      <p>SKILLS</p>
+      <p aria-hidden="true">SKILLS</p>
+      <p aria-hidden="true">SKILLS</p>
+      <p aria-hidden="true">SKILLS</p>
+      <p aria-hidden="true">SKILLS</p>
     </div>
     <section class="skills">
       <article class="skill">
@@ -271,10 +328,10 @@
     </section>
     <div class="marquee" id="contact">
       <p>CONTACT</p>
-      <p>CONTACT</p>
-      <p>CONTACT</p>
-      <p>CONTACT</p>
-      <p>CONTACT</p>
+      <p aria-hidden="true">CONTACT</p>
+      <p aria-hidden="true">CONTACT</p>
+      <p aria-hidden="true">CONTACT</p>
+      <p aria-hidden="true">CONTACT</p>
     </div>
     <footer class="footer">
       <p class="footer__location">Basé à Marseille, FR (disponible en TT)</p>
@@ -285,6 +342,9 @@
         </a>
         <a href="https://www.linkedin.com/in/rayan-bendjeddou-08667924b/" target="_blank">
           <img src="./images/linkedin.svg" alt="Compte linkedin de Rayan BENDJEDDOU" />
+        </a>
+        <a href="https://github.com/BENDJEDDOU-Rayan" target="_blank">
+          <img src="./images/github.svg" alt="Compte github de Rayan BENDJEDDOU" />
         </a>
       </div>
     </footer>

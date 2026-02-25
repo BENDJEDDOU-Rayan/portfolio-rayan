@@ -1,21 +1,25 @@
 @font-face {
   font-family: "Futura-Hv-BT-Heavy";
   src: url("./fonts/Futura-Hv-BT-Heavy.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Jura-Light";
   src: url("./fonts/Jura-Light.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Jura-Regular";
   src: url("./fonts/Jura-Regular.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "KoHo-Regular";
   src: url("./fonts/KoHo-Regular.ttf");
+  font-display: swap;
 }
 
 *,
@@ -384,6 +388,7 @@ sl-carousel {
   height: 100%;
   width: 100%;
   flex: 1;
+  border-radius: 0;
 }
 
 sl-carousel::part(base) {
@@ -391,23 +396,27 @@ sl-carousel::part(base) {
   gap: 0;
   width: 100%;
   height: 100%;
+  border-radius: 0;
 }
 
 sl-carousel::part(scroll-container) {
   height: 100%;
   width: 100%;
+  border-radius: 0;
 }
 
 sl-carousel-item {
   height: 100%;
   width: 100%;
   background-color: #000000;
+  border-radius: 0;
 }
 
 sl-carousel-item img {
   width: 100%;
   height: auto;
   object-fit: contain;
+  border-radius: 0;
 }
 
 @keyframes scroll {
