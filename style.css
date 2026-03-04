@@ -336,7 +336,7 @@ nav a:last-child {
 }
 
 .skill__title {
-  margin-top: 2rem;
+  margin-top: clamp(2.5rem, 1.5726rem + 4.6371vw, 8.25rem);
   font-family: "Jura-Regular";
   font-weight: normal;
   font-size: clamp(24px, 18.1935px + 1.8145vw, 60px);
@@ -359,6 +359,7 @@ nav a:last-child {
 .skill__paragraph {
   text-align: justify;
   margin: 2rem 0;
+  margin-bottom: clamp(2rem, 1.4153rem + 2.9234vw, 5.625rem);
   font-size: clamp(16px, 7.2px + 0.8594vw, 27px);
 }
 
