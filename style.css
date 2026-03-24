@@ -203,7 +203,7 @@ nav a:last-child {
   font-size: clamp(6rem, 4.4476rem + 7.7621vw, 15.625rem);
   font-family: "Futura-Hv-BT-Heavy";
   font-weight: normal;
-  text-wrap: nowrap;
+  white-space: nowrap;
   animation: scroll 20s linear infinite;
 }
 
@@ -460,9 +460,7 @@ sl-carousel-item {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 0;
-  }
-  .project__infos {
-    height: 100%;
+    align-items: stretch;
   }
   .project aside,
   .project__infos {
@@ -472,7 +470,6 @@ sl-carousel-item {
     order: 1;
   }
   .project aside {
-    height: 100%;
     order: 2;
   }
   .project--reversed aside {
