@@ -123,6 +123,7 @@ nav a:last-child {
 
 .presentation__img-wrapper {
   position: relative;
+  height: fit-content;
 }
 
 .presentation__img-wrapper img {
@@ -394,12 +395,48 @@ nav a:last-child {
   align-items: center;
   justify-content: center;
   gap: 4rem;
-  margin-top: 2.75rem;
+  margin: 2.75rem 0;
 }
 
 .footer__socials img {
   height: clamp(48px, 40.9032px + 2.2177vw, 92px);
   width: clamp(48px, 40.9032px + 2.2177vw, 92px);
+}
+
+.footer__legal-notices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer__legal-notices h2 {
+  font-family: "Jura-Light";
+  font-size: clamp(1.5rem, 0.4375rem + 1.5625vw, 3rem);
+  font-weight: normal;
+}
+
+.footer__legal-notices h3 {
+  font-family: "Jura-Light";
+  font-size: clamp(2rem, 0.4375rem + 1.5625vw, 4rem);
+  font-weight: normal;
+}
+
+.footer__legal-notices p {
+  font-family: "KoHo-Regular";
+  font-weight: normal;
+}
+
+.footer__legal-notices__text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 1rem;
+  font-size: clamp(0.875rem, 0.744rem + 0.6552vw, 1.6875rem);
+  gap: 0.5rem;
+  width: 85%;
+  max-width: 1920px;
 }
 
 sl-carousel {
